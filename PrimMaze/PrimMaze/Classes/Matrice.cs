@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace WpfApp1.Classes
 {
-    class Maze
+    /// <summary>
+    /// Cette classe représente la Matrice d'adjacence 
+    /// </summary>
+    class Matrice
     {
 
         #region Members
@@ -14,22 +17,10 @@ namespace WpfApp1.Classes
 
 
         #region Constructors
-        public Maze(int m, int n)
-        {
-
-        }
         #endregion
 
 
         #region Properties
-        #endregion
-
-
-        #region Other Methods
-        public void Prim()
-        {
-
-        }
         #endregion
 
     }
